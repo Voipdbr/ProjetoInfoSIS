@@ -11,8 +11,12 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 
 app.get('/', (request, response) => {
-    response.send("The server is running.")
+    response.send("");
 })
+
+const carRoutes = require('./src/routes/car.routes')
+
+app.use('/api/cars', carRoutes);
 
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);

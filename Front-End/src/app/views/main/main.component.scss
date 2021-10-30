@@ -1,0 +1,29 @@
+main{
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+table{
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.th_crud{
+  padding: 10px;
+}
+
+.datas_crud_body{
+  border: 1px solid black;
+}
+
+.modify_data{
+  cursor: pointer;
+  color: rgb(0, 202, 221);
+}
+
+.delete_data{
+  cursor: pointer;
+  color: rgb(0, 202, 221);
+}

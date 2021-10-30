@@ -1,0 +1,19 @@
+{
+  "name": "projetoinfosis",
+  "version": "1.0.0",
+  "description": "Front-End Criado com o angular",
+  "main": "index.js",
+  "scripts": {
+    "exec": "start iniciar.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voipdbr/ProjetoInfoSIS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Voipdbr/ProjetoInfoSIS/issues"
+  },
+  "homepage": "https://github.com/Voipdbr/ProjetoInfoSIS#readme"
+}

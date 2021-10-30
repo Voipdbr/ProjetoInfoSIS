@@ -1,4 +1,4 @@
-const mysql = require ('mysql');
+const mysql = require('mysql');
 
 const dbConnection = mysql.createConnection({
     host : 'localhost',
@@ -7,7 +7,7 @@ const dbConnection = mysql.createConnection({
 
     password : '',
 
-    database : 'infosis-dates-car'
+    database : 'infosis-dates-car',
 });
 
 dbConnection.connect(function(err){
@@ -17,4 +17,4 @@ dbConnection.connect(function(err){
 
 })
 
-export default dbConnection;
+module.exports = dbConnection;
