@@ -14,6 +14,7 @@ sleep 5
 @echo on
 cd ..\Server
 @echo off
+start /min nodemon.bat
 sleep 30
 @echo on
 npm start
