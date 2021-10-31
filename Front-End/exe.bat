@@ -7,7 +7,7 @@ echo Espere, por favor...........
 sleep 10
 start /max site.bat
 cd ..
-start /min angular.bat
+sleep 60
 ng serve
 @echo off
 @echo on

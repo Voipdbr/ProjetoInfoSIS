@@ -9,6 +9,10 @@ sleep 10
 start exe.bat
 cd ..
 cd ..
+start /min angular.bat
+sleep 10
+start /min nodemon.bat
+sleep 20
 cd Front-End/
 sleep 10
 start exe.bat
