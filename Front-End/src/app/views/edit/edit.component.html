@@ -1,0 +1,39 @@
+<main>
+  <table>
+    <thead>
+      <tr>
+        <th class="th_crud"></th>
+        <th class="th_crud"><input [(ngModel)]="servico.placa" type="text" name="Placa"></th>
+        <th class="th_crud"><input [(ngModel)]="servico.chassi" type="text" name="Chassi"></th>
+        <th class="th_crud"><input [(ngModel)]="servico.renavam" type="text" name="Renavam"></th>
+        <th class="th_crud"><input [(ngModel)]="servico.modelo" type="text" name="Modelo"></th>
+        <th class="th_crud"><input [(ngModel)]="servico.marca" type="text" name="Marca"></th>
+        <th class="th_crud"><input [(ngModel)]="servico.ano" type="text" name="Ano"></th>
+        <th class="th_crud"><button class="btn" (click)="modificarId(servico.id)">Modificar</button></th>
+        <th class="th_crud"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="datas_crud_body-g">ID</th>
+        <th class="datas_crud_body-g">Placa</th>
+        <th class="datas_crud_body-g">Chassi</th>
+        <th class="datas_crud_body-g">Renavam</th>
+        <th class="datas_crud_body-g">Modelo</th>
+        <th class="datas_crud_body-g">Marca</th>
+        <th class="datas_crud_body-g">Ano</th>
+        <th></th>
+      </tr>
+      <tr *ngFor="let servico of ListarCarro">
+        <th>{{servico.id}}</th>
+        <th class="datas_crud_body">{{servico.placa}}</th>
+        <th class="datas_crud_body">{{servico.chassi}}</th>
+        <th class="datas_crud_body">{{servico.renavam}}</th>
+        <th class="datas_crud_body">{{servico.modelo}}</th>
+        <th class="datas_crud_body">{{servico.marca}}</th>
+        <th class="datas_crud_body">{{servico.ano}}</th>
+        <th></th>
+      </tr>
+    </tbody>
+  </table>
+</main>

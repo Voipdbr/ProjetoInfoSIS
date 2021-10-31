@@ -1,7 +1,7 @@
 main{
   margin-top: 15%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 table{
@@ -18,12 +18,54 @@ table{
   border: 1px solid black;
 }
 
+.datas_crud_body-g{
+  border: 1px solid black;
+  background-color: rgb(83, 206, 83);
+}
+
+.datas_crud_body-g2{
+  border: 1px solid black;
+  background-color: rgb(142, 253, 142);
+}
+
+
 .modify_data{
   cursor: pointer;
   color: rgb(0, 202, 221);
+  transition: 1s;
+}
+
+.modify_data:hover{
+  cursor: pointer;
+  color: rgb(0, 118, 129);
+  transition: 1s;
 }
 
 .delete_data{
   cursor: pointer;
   color: rgb(0, 202, 221);
+  transition: 1s;
+}
+
+.delete_data:hover{
+  cursor: pointer;
+  color: rgb(0, 79, 87);
+  transition: 1s;
+}
+
+.btn{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgb(19, 235, 19);
+  color: rgb(29, 29, 29);
+  font-weight: bold;
+  transition: 1s;
+}
+
+.btn:hover{
+  background-color: rgb(15, 179, 15);
+  color: rgb(255, 255, 255);
+  transition: 1s;
 }

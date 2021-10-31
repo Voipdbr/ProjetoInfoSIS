@@ -2,9 +2,14 @@
 color a
 cd Back-End/
 cd Server/
-sleep 10
 echo Iniciando todos os trabalho.....
 @echo on
 @echo off
-npm run Exec
+sleep 10
+start exe.bat
+cd ..
+cd ..
+cd Front-End/
+sleep 10
+start exe.bat
 exit

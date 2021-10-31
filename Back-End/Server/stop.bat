@@ -1,7 +1,8 @@
 @echo off
+powershell
 color a
+echo Inicializando os procedimentos para o banco de dados automaticamente...
 @echo on
-echo Inicializando os procedimentos automaticamente.
 @echo off
 sleep 5
 start ..\XAMPPSERVER\Executar_tudo.bat

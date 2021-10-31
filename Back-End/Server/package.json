@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "Exec": "start exe.bat",
-    "Stop": "start stop.bat",
     "start": "nodemon index.js"
   },
   "author": "",
@@ -13,5 +12,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
   }
 }

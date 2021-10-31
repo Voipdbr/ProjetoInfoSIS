@@ -10,7 +10,7 @@ var Car = function(car){
 }
 
     Car.create = function(newCar, result){
-        dbConnection.query("INSERT INTO car set ?", newCar, function (err, response) {
+        dbConnection.query("INSERT INTO `car` set ?", newCar, function (err, response) {
             if(err){
                 console.log("error: ", err);
                 result(err, null);
@@ -22,7 +22,7 @@ var Car = function(car){
     };
 
     Car.findAll = function(result){
-        dbConnection.query("Select * from car", function(err, response){
+        dbConnection.query("Select * from `car`", function(err, response){
             if(err){
                 console.log("error: ", err);
             }else{
@@ -33,8 +33,20 @@ var Car = function(car){
         });
     };
 
+    Car.findById = function (id, result) {
+        dbConnection.query("Select * from `car` where `id` = ? ", id, function (err, response) {
+        if(err) {
+          console.log("error: ", err);
+          result(err, null);
+        }
+        else{
+          result(null, response);
+        }
+        });
+    };
+
     Car.update = function(id, car, result){
-        dbConnection.query("UPDATE car SET placa=?,chassi=?,renavam=?,modelo=?,marca=?,ano=? WHERE id = ?", [car.placa, car.chassi, car.renavam, car.modelo, car.marca, car.ano, id], function(err, response){
+            dbConnection.query(`UPDATE car set placa=?, chassi=?, renavam=?, modelo=?, marca=?, ano=? WHERE id = ?`, [car.placa, car.chassi, car.renavam, car.modelo, car.marca, car.ano, id], (err, rows, response) => {
             if(err){
                 console.log("error: ", err);
 
@@ -42,11 +54,11 @@ var Car = function(car){
             }else{
                 result(null, response);
             }
-        });
+            });
     };
 
 Car.delete = function(id, result){
-        dbConnection.query("DELETE FROM car WHERE id = ?", [id], function(err, response){
+        dbConnection.query("DELETE FROM `car` WHERE `id` = ?", [id], function(err, response){
             if(err){
                 console.log("error: ", err);
 

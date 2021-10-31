@@ -1,0 +1,56 @@
+main{
+  margin-top: 15%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+table{
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.th_crud{
+  padding: 10px;
+}
+
+.datas_crud_body{
+  border: 1px solid black;
+}
+
+.datas_crud_body-g{
+  border: 1px solid black;
+  background-color: rgb(83, 206, 83);
+}
+
+.datas_crud_body-g2{
+  border: 1px solid black;
+  background-color: rgb(142, 253, 142);
+}
+
+.modify_data{
+  cursor: pointer;
+  color: rgb(0, 202, 221);
+}
+
+.delete_data{
+  cursor: pointer;
+  color: rgb(0, 202, 221);
+}
+
+.btn{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgb(19, 235, 19);
+  color: rgb(29, 29, 29);
+  font-weight: bold;
+  transition: 1s;
+}
+
+.btn:hover{
+  background-color: rgb(15, 179, 15);
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}

@@ -1,7 +1,9 @@
 # ProjetoInfoSIS
 
-Front-End Criado com o angular
+Front-End Criado com o Angular
 
 Back-End Criado com o Express, bodyParser, mysql, nodemon
 
-Bem-vindo
+Edit: Front-End e Back-End Finalizado com sucesso.
+
+Faltando fazer teste unitário com mocha.

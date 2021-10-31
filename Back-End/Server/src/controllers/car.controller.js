@@ -46,7 +46,7 @@ exports.findById = function(request, response){
 };
 
 exports.update = function(request, response){
-    if(request.body.constructor === Object && Object.keys(request.body).length){
+    if(request.body.constructor === Object && Object.keys(request.body).length === 0){
         response.status(400).send({
             error: true,
             message: "Porfavor providêncie todos os campos requeridos"

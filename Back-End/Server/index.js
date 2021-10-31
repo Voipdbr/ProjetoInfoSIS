@@ -8,11 +8,11 @@ const port = process.env.PORT || 5500;
 
 app.use(bodyParser.urlencoded({extended: true}))
 
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 app.get('/', (request, response) => {
-    response.send("");
-})
+    response.send("Hello world!");
+});
 
 const carRoutes = require('./src/routes/car.routes')
 

@@ -868,3 +868,31 @@
 00:58:52  [main] 	Deinitializing Modules
 00:58:52  [main] 	Deinitializing Control Panel
 
+20:54:18  [main] 	Initializing Control Panel
+20:54:18  [main] 	Windows Version:  Enterprise  64-bit
+20:54:18  [main] 	XAMPP Version: 7.4.25
+20:54:18  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+20:54:18  [main] 	You are not running with administrator rights! This will work for
+20:54:18  [main] 	most application stuff but whenever you do something with services
+20:54:18  [main] 	there will be a security dialogue or things will break! So think 
+20:54:18  [main] 	about running this application with administrator rights!
+20:54:18  [main] 	XAMPP Installation Directory: "c:\users\ismael\desktop\projeto trabalhooooo\projetoinfosis\back-end\xamppserver\"
+20:54:18  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+20:54:18  [main] 	Checking for prerequisites
+20:54:18  [main] 	All prerequisites found
+20:54:18  [main] 	Initializing Modules
+20:54:18  [main] 	The FileZilla module is disabled
+20:54:18  [main] 	The Mercury module is disabled
+20:54:18  [main] 	Starting Check-Timer
+20:54:18  [main] 	Control Panel Ready
+02:37:26  [Apache] 	Status change detected: stopped
+02:37:26  [Apache] 	Error: Apache shutdown unexpectedly.
+02:37:26  [Apache] 	This may be due to a blocked port, missing dependencies, 
+02:37:26  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+02:37:26  [Apache] 	Press the Logs button to view error logs and check
+02:37:26  [Apache] 	the Windows Event Viewer for more clues
+02:37:26  [Apache] 	If you need more help, copy and post this
+02:37:26  [Apache] 	entire log window on the forums
+02:37:44  [main] 	Deinitializing Modules
+02:37:44  [main] 	Deinitializing Control Panel
+

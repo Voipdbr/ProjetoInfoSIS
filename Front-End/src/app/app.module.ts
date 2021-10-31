@@ -7,11 +7,13 @@ import { MainComponent } from './views/main/main.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { EditComponent } from './views/edit/edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
