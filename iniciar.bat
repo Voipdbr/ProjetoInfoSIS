@@ -1,19 +1,19 @@
 @echo off
 color a
-cd Back-End/
-cd Server/
+cd Back-End
+cd Server
 echo Iniciando todos os trabalho.....
 @echo on
 @echo off
-sleep 10
+TIMEOUT /T 10 /nobreak
 start exe.bat
 cd ..
 cd ..
 start /min angular.bat
-sleep 10
+TIMEOUT /T 10 /nobreak
 start /min nodemon.bat
-sleep 20
-cd Front-End/
-sleep 10
+TIMEOUT /T 20 /nobreak
+cd Front-End
+TIMEOUT /T 10 /nobreak
 start exe.bat
 exit

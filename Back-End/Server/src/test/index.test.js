@@ -27,7 +27,7 @@ describe('Teste de rotas do back-end', () =>{
 
     //OBJETO PARA ATUALIZAR UM DADO
     const atualizar = {
-        id: 81,
+        id: 82,
         placa: 'asasdasdd',
         chassi: 'aasd',
         renavam: 'reasda',

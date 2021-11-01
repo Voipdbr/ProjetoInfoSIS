@@ -3,6 +3,6 @@ color a
 echo Inicializando os procedimentos para o banco de dados automaticamente...
 @echo on
 @echo off
-sleep 5
+TIMEOUT /T 5 /nobreak
 start /min ..\XAMPPSERVER\Executar_tudo.bat
 exit
