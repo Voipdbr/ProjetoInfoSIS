@@ -10,10 +10,6 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 app.use(bodyParser.json());
 
-app.get('/', (request, response) => {
-    response.send("Hello world!");
-});
-
 const carRoutes = require('./src/routes/car.routes')
 
 app.use('/api/cars', carRoutes);

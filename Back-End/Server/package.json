@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --file src/test/index.test.js",
-    "Exec": "start exe.bat",
     "start": "nodemon index.js"
   },
   "author": "",

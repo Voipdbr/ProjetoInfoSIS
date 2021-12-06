@@ -1,13 +1,13 @@
 const mysql = require('mysql');
 
 const dbConnection = mysql.createConnection({
-    host : 'localhost',
+    host : 'sql248.main-hosting.eu',
 
-    user : 'root',
+    user : 'u849481039_teste2',
 
-    password : '',
+    password : 'Senhasegura2',
 
-    database : 'infosis-dates-car',
+    database : 'u849481039_teste2',
 });
 
 dbConnection.connect(function(err){
